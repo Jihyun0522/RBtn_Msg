@@ -46,7 +46,7 @@
             this.gpOption1.Controls.Add(this.rbYesNo);
             this.gpOption1.Controls.Add(this.rbOkCancel);
             this.gpOption1.Controls.Add(this.rbOk);
-            this.gpOption1.Location = new System.Drawing.Point(12, 12);
+            this.gpOption1.Location = new System.Drawing.Point(12, 39);
             this.gpOption1.Name = "gpOption1";
             this.gpOption1.Size = new System.Drawing.Size(219, 109);
             this.gpOption1.TabIndex = 0;
@@ -58,7 +58,7 @@
             this.gpOption2.Controls.Add(this.rbQuestion);
             this.gpOption2.Controls.Add(this.rbInformation);
             this.gpOption2.Controls.Add(this.rbError);
-            this.gpOption2.Location = new System.Drawing.Point(237, 12);
+            this.gpOption2.Location = new System.Drawing.Point(237, 39);
             this.gpOption2.Name = "gpOption2";
             this.gpOption2.Size = new System.Drawing.Size(219, 109);
             this.gpOption2.TabIndex = 1;
@@ -134,12 +134,13 @@
             // 
             // btnShow
             // 
-            this.btnShow.Location = new System.Drawing.Point(477, 12);
+            this.btnShow.Location = new System.Drawing.Point(462, 39);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(143, 103);
+            this.btnShow.Size = new System.Drawing.Size(158, 109);
             this.btnShow.TabIndex = 2;
             this.btnShow.Text = "Show";
             this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.BtnShow_Click);
             // 
             // Form1
             // 
